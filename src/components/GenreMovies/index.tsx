@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { RootStateOrAny, useSelector } from 'react-redux'
 import { getStorageValue, useLocalStorage } from '../../configs/useLocalStorage'
 import Popular from '../Popular'

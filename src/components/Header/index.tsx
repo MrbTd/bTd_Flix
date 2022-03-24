@@ -1,8 +1,7 @@
-import { AppBar, Box, Button, Container, Toolbar, Typography, useMediaQuery, useTheme } from '@mui/material'
+import { AppBar, Box, Button, Container, Toolbar, Typography, useMediaQuery } from '@mui/material'
 import React from 'react'
 
 const Header = () => {
-    const theme = useTheme()
     const matches = useMediaQuery('(min-width:874px)');
 
     return (

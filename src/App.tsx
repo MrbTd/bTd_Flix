@@ -9,7 +9,7 @@ import { handleGetGenreMovie, handleGetPopularMovie } from './configs/ServicesRe
 import { handleActionGet } from './redux/actionReducer'
 import { TypeReducer } from './redux/typeReduce'
 import GenreMovies from './components/GenreMovies'
-import { BrowserRouter, Route, Routes, useMatch, useParams } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MovieDetails from './components/MovieDetails'
 
 const Home = () => {
@@ -69,7 +69,7 @@ const App = () => {
 
 
 
-  }, [])
+  }, [dispatch])
 
 
   return (
