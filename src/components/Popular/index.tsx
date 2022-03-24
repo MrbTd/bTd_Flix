@@ -1,6 +1,4 @@
 import { Box, Grid } from '@mui/material'
-import React, { useEffect } from 'react'
-import { RootStateOrAny, useSelector } from 'react-redux'
 import CardImage from '../../CustomComponent/CardImage'
 
 interface PropsMovie {

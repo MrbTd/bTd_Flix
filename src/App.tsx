@@ -1,7 +1,6 @@
 import { Box, Container, ThemeProvider } from '@mui/material'
 import React, { useEffect } from 'react'
 import Header from './components/Header'
-import Popular from './components/Popular'
 import SectionTitle from './components/SectionTitle'
 import { theme } from './configs/OveridesTheme'
 import './App.css'
